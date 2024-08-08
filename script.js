@@ -262,10 +262,10 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     document.getElementById('creatorChannelBtn').addEventListener('click', () => {
-        window.open('t.me/PirateArif', '_blank');
+        window.open('https://t.me/PirateArif', '_blank');
     });
 
     telegramChannelBtn.addEventListener('click', () => {
-        window.open('t.me/PirateArif', '_blank');
+        window.open('https://t.me/PirateArif', '_blank');
     });
 });
