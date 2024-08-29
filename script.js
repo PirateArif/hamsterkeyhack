@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         },
 
-        
+
         4: {
 
             name: 'Train Miner',
