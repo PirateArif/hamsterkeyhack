@@ -22,8 +22,8 @@ document.addEventListener('DOMContentLoaded', () => {
             name: 'Fluff Crusade',
             appToken: '112887b0-a8af-4eb2-ac63-d82df78283d9',
             promoId: '112887b0-a8af-4eb2-ac63-d82df78283d9',
-            eventsDelay: 23000,
-            attemptsNumber: 18,
+            eventsDelay: 20000,
+            attemptsNumber: 32,
         },
         4: {
             name: 'Train Miner',
@@ -66,10 +66,19 @@ document.addEventListener('DOMContentLoaded', () => {
             name: 'Tile Trio',
             appToken: 'e68b39d2-4880-4a31-b3aa-0393e7df10c7',
             promoId: 'e68b39d2-4880-4a31-b3aa-0393e7df10c7',
-            eventsDelay: 40000,
+            eventsDelay: 20000,
             attemptsNumber: 22,
             
 	},
+	10: {
+            name: 'Stone Age',
+            appToken: '04ebd6de-69b7-43d1-9c4b-04a6ca3305af',
+            promoId: '04ebd6de-69b7-43d1-9c4b-04a6ca3305af',
+            eventsDelay: 22000,
+            attemptsNumber: 25,
+            
+	},
+	    
     };
 
 
@@ -365,7 +374,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('creatorChannelBtn').addEventListener('click', () => {
         (function() {
             const part1 = atob('aHR0cHM6Ly90ZWxlZ3JhbS5tZS8=');
-            const part2 = atob('UGlyYXRlQXJpZg==');
+            const part2 = atob('UGlyYXRlYXJpZg==');
             const url = part1 + part2;
             window['open'](url, '_blank');
         })();
@@ -375,7 +384,7 @@ document.addEventListener('DOMContentLoaded', () => {
     telegramChannelBtn.addEventListener('click', () => {
         (function() {
             const part1 = atob('aHR0cHM6Ly90ZWxlZ3JhbS5tZS8=');
-            const part2 = atob('UGlyYXRlQXJpZg==');
+            const part2 = atob('UGlyYXRlYXJpZg==');
             const url = part1 + part2;
             window['open'](url, '_blank');
         })();
